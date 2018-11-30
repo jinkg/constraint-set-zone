@@ -19,4 +19,8 @@ class MainActivity : AppCompatActivity() {
     fun carouselActivity(view: View) {
         startActivity(Intent(this, CarouselActivity::class.java))
     }
+
+    fun shoppingActivity(view: View) {
+        startActivity(Intent(this, ShoppingActivity::class.java))
+    }
 }
